@@ -1,0 +1,30 @@
+﻿# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment/secrets
+.env
+
+# Large temporary datasets
+data/*.csv
+data/*.zip
+data/*.gz
+data/*.pcap
+
+# Temporary/generated files
+*.tmp
+
